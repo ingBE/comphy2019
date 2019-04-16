@@ -3,6 +3,7 @@
     Searches the interval (a,b) in increments dx for
     the bounds (x1,x2) of the smallest root of f(x).
     Returns x1 = x2 = None if no roots were detected.
+	dd
 '''
 from numpy import sign
 def rootsearch(f,a,b,dx):
